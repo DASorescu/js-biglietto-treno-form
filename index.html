@@ -16,27 +16,33 @@
     <div id= "wrapper" class="d-flex justify-content-center align-items-center ">
         <div class="bg-white rounded info-card">
             <!-- creazione del form -->
-            <div>
-                <label for="name"></label>
-                <input type="text" id="nome" name="name" placeholder="NOME">
+            <div class="top">
+                <div>
+                    <label for="name"></label>
+                    <input type="text" id="nome" name="name" placeholder="NOME">
+                </div>
+                <div>
+                    <label for="surname"></label>
+                    <input type="text" id="surname" name="surname" placeholder="COGNOME">
+                    
+                </div>
+                <div>
+                    <label for="age"></label>
+                    <input type="number" id="age" name="age" placeholder="ET&Aacute;">
+                </div>
+                <div>
+                    <label for="kms"></label>
+                    <input type="number" id="TLenght" name="chilometers" placeholder="Km da percorrere">
+                </div>
+                
+                <button type="submit" value="calcola" id="button">CALCOLA</button>
             </div>
-            <div>
-                <label for="surname"></label>
-                <input type="text" id="surname" name="surname" placeholder="COGNOME">
-
+            <div class="bottom">
+                <div id="result"></div>
             </div>
-            <div>
-                <label for="age"></label>
-                <input type="number" id="age" name="age" placeholder="ET&Aacute;">
-            </div>
-            <div>
-                <label for="kms"></label>
-                <input type="number" id="TLenght" name="chilometers" placeholder="Km da percorrere">
-            </div>
-            
-            <button type="submit" value="calcola" id="button">
-            
         </div>
+                
+        
         <script src="js/script.js"></script>
     </body>
     </html>
@@ -44,5 +50,8 @@
                 
 
 
+                
+
 
                 
+

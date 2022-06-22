@@ -16,3 +16,14 @@ body{
     height: 400px;
     width: 900px;
 }
+
+#button {
+    width :70px;
+    height: 30px;
+    color: blueviolet;
+    border-color: chocolate;
+    background-color: darkgray;
+    border-radius: 5%;
+    display: block;
+
+}
