@@ -1,3 +1,17 @@
 body{
     background-color: salmon;
 }
+
+
+.bg-white{
+    background-color: white;
+}
+#wrapper{
+    height: 100vh;
+}
+.info-card{
+
+    border-radius:20px;
+    height: 400px;
+    width: 900px;
+}
