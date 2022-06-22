@@ -1,12 +1,20 @@
-console.log("CIAO")+
+console.log("CIAO")
+
 // declaring generic variables
 
 const button = document.getElementById("button");
-const name = document.getElementById("name");
-console.log("name");
-const surname = document.getElementById("surname");
-console.log("surname");
-const age = document.getElementById("age");
-console.log("age");
+const imputName = document.getElementById("nome");
+const imputSurname = document.getElementById("surname");
+const imputAge = document.getElementById("age");
 const travelLenght = document.getElementById("TLenght");
-console.log("TLenght");
+
+// put a listener to the button 
+
+button.addEventListener("click", function(){
+const imputName = nome.value;
+const imputSurname = surname.value;
+const imputAge = age.value;
+const TLenght = travelLenght.value;
+
+console.log( imputName , imputSurname , imputAge , TLenght)
+})
